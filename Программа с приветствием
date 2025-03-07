@@ -1,1 +1,5 @@
-print("Привет, мир!")
+start
+new greeting string
+set greeting "Привет, мир!"
+log string greeting
+finish
