@@ -1,7 +1,16 @@
-b = "B"
-i = "I"
-n = "N"
-g = "G"
-o = "O"
+start
 
-print(b + "-" + i + "-" + n + "-" + g + "-" + o)
+new B string
+new I string
+new N string
+new G string
+new O string
+
+set B "B"
+set I "I"
+set N "N"
+set G "G"
+set O "O"
+
+log string B>> "-">> I >> "-" >> N >> "-" >> G >> "-" >>O
+finish
