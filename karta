@@ -1,13 +1,19 @@
-cardNumber = "1234 5678 9012 3456"
-cardHolder = "IVAN IVANOV"
-expiryDate = "12/25"
-cvv = "123"
+start
+new card_number string
+new card_holder string
+new expiry_date string
+new cvv_code string
 
-print("############################")
-print("#                          #")
-print("#  " + cardNumber + "  #")
-print("#  " + cardHolder + "         #")
-print("#  Expiry: " + expiryDate + "         #")
-print("#  CVV: " + cvv + "               #")
-print("#                          #")
-print("############################")
+set card_number "1234 5678 9012 3456"
+set card_holder "Миннуллин Айваз"
+set expiry_date "12/22"
+set cvv_code "122"
+
+log string "*****************************"
+log string "* Банковская карта          *"
+log string "* Номер: " >>card_number >>" *"
+log string "* Владелец: " >>card_holder>> " *"
+log string "* Срок действия: " >> expiry_date >>" *"
+log string "* CVV код" >> cvv_code >>" *"
+log string "*****************************"
+finish
